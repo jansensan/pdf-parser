@@ -1,0 +1,11 @@
+{
+  "name": "pdf-parser",
+  "description": "A lib to test parsing PDF content and annotations",
+  "version": "1.0.0",
+  "author": "Mat Janson Blanchet <mat.jb@jansensan.net> (https://jansensan.net)",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "pdf-to-text": "^0.0.7",
+    "pdfjs-dist": "^2.4.456"
+  }
+}

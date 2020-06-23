@@ -1,0 +1,52 @@
+### IGNORE FILES FROM GIT ###
+
+### SYSTEMS FILES ###
+*._*
+*.DS_STORE
+Thumbs.db
+
+### IDE CONFIGS
+.cache
+.idea/
+.project
+.settings/
+.tmproj/
+.vscode/
+
+### COMMON PROJECT FILES ###
+
+## dump director-y-ies
+# this allows to create directories
+# at the root of the project directory
+# prefixed with an underscore (_)
+# without committing them
+/_*
+
+## design files
+**.ai
+**.indd
+**.psd
+**.sketch
+
+## logs
+**.log
+
+## compressed assets
+**.rar
+**.tgz
+**.zip
+
+## environment files
+# example file should be allowed
+# other patterns, such as .env.prod, should be disallowed
+.env*
+!.env.example
+
+## node modules
+node_modules
+
+# yarn should be used instead
+package-lock.json
+
+### PROJECT-SPECIFIC FILES BELOW ###
+tmp
